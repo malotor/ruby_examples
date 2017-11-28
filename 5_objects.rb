@@ -6,7 +6,7 @@ class Customer
       @cust_name = name
       @cust_addr = addr
    end
-   def display_details()
+   def display_details
       puts "Customer id #@cust_id"
       puts "Customer name #@cust_name"
       puts "Customer address #@cust_addr"

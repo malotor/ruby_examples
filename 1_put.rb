@@ -1,3 +1,5 @@
 #!/usr/bin/ruby -w
 
-puts "Hello ruby!";
+puts "Hello ruby!"
+
+p "Bye world"
