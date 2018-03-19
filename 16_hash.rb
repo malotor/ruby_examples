@@ -11,6 +11,7 @@ puts "#{H[[1,"jan"]]}"
 $, = ", "
 months = Hash.new( "month" )
 puts months[0]
+
 months = {"1" => "January", "2" => "February"}
 
 keys = months.keys
@@ -22,3 +23,11 @@ puts test[1]
 puts test["foo"]
 
 test.each { |key,value| puts "key: #{key} - Value: #{value}" }
+
+
+a = { a: 1, b: 2, c: 3}
+puts a.to_s
+puts a[:c]
+
+a.each { |k,v| a.delete(k) if v > 2 }
+puts a.to_s

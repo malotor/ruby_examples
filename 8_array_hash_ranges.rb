@@ -19,3 +19,8 @@ puts "3. RANGES"
 (10..15).each do |n|
    print n, ' '
 end
+
+
+a = { a: 1, b: 2, c: 3}
+puts a.to_s
+puts a[:c]
